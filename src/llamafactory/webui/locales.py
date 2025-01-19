@@ -15,10 +15,10 @@
 LOCALES = {
     "lang": {
         "en": {
-            "label": "Lang",
+            "label": "Language",
         },
         "ru": {
-            "label": "язык",
+            "label": "Язык",
         },
         "zh": {
             "label": "语言",
@@ -30,11 +30,11 @@ LOCALES = {
     "model_name": {
         "en": {
             "label": "Model name",
-            "info": "Input the name prefix to search for the model.",
+            "info": "Input the initial name to search for the model.",
         },
         "ru": {
             "label": "Название модели",
-            "info": "Введите префикс имени для поиска модели.",
+            "info": "Введите начальное имя для поиска модели.",
         },
         "zh": {
             "label": "模型名称",
@@ -42,7 +42,7 @@ LOCALES = {
         },
         "ko": {
             "label": "모델 이름",
-            "info": "모델을 검색하기 위해 이름 접두어를 입력하세요.",
+            "info": "모델을 검색할 초기 이름을 입력하세요.",
         },
     },
     "model_path": {
@@ -129,48 +129,50 @@ LOCALES = {
     },
     "template": {
         "en": {
-            "label": "Prompt template",
-            "info": "The template used in constructing prompts.",
+            "label": "Chat template",
+            "info": "The chat template used in constructing prompts.",
         },
         "ru": {
-            "label": "Шаблон запроса",
-            "info": "Шаблон, используемый при формировании запросов.",
+            "label": "Шаблон чата",
+            "info": "Шаблон чата используемый для составления подсказок.",
         },
         "zh": {
-            "label": "提示模板",
+            "label": "对话模板",
             "info": "构建提示词时使用的模板。",
         },
         "ko": {
-            "label": "프롬프트 템플릿",
-            "info": "프롬프트 구성에 사용될 템플릿.",
+            "label": "채팅 템플릿",
+            "info": "프롬프트 작성에 사용되는 채팅 템플릿.",
         },
     },
     "rope_scaling": {
         "en": {
             "label": "RoPE scaling",
+            "info": "RoPE scaling method to use.",
         },
         "ru": {
             "label": "Масштабирование RoPE",
+            "info": "Метод масштабирования RoPE для использования.",
         },
-        "zh": {
-            "label": "RoPE 插值方法",
-        },
+        "zh": {"label": "RoPE 插值方法", "info": "RoPE 插值时使用的方法。"},
         "ko": {
             "label": "RoPE 스케일링",
+            "info": "사용할 RoPE 스케일링 방법.",
         },
     },
     "booster": {
         "en": {
             "label": "Booster",
+            "info": "Approach used to boost training speed.",
         },
         "ru": {
             "label": "Ускоритель",
+            "info": "Подход, используемый для ускорения обучения.",
         },
-        "zh": {
-            "label": "加速方式",
-        },
+        "zh": {"label": "加速方式", "info": "使用的加速方法。"},
         "ko": {
             "label": "부스터",
+            "info": "훈련 속도를 향상시키기 위해 사용된 접근 방식.",
         },
     },
     "training_stage": {
@@ -468,7 +470,7 @@ LOCALES = {
     "val_size": {
         "en": {
             "label": "Val size",
-            "info": "Proportion of data in the dev set.",
+            "info": "Percentage of validation set from the entire dataset.",
         },
         "ru": {
             "label": "Размер валидации",
@@ -711,24 +713,6 @@ LOCALES = {
         "ko": {
             "label": "LLaMA Pro 사용",
             "info": "확장된 블록의 매개변수를 학습 가능하게 만듭니다.",
-        },
-    },
-    "shift_attn": {
-        "en": {
-            "label": "Enable S^2 Attention",
-            "info": "Use shift short attention proposed by LongLoRA.",
-        },
-        "ru": {
-            "label": "Включить S^2 внимание",
-            "info": "Использовать сдвиг внимания на короткие дистанции предложенный LongLoRA.",
-        },
-        "zh": {
-            "label": "使用 S^2 Attention",
-            "info": "使用 LongLoRA 提出的 shift short attention。",
-        },
-        "ko": {
-            "label": "S^2 Attention 사용",
-            "info": "LongLoRA에서 제안한 shift short attention을 사용합니다.",
         },
     },
     "report_to": {
